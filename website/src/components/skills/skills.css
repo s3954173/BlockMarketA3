@@ -1,0 +1,18 @@
+.skills{
+    background: #57CC99 ;
+    border-radius: 1rem;
+    padding: 3rem;
+    margin: 2rem;
+}
+
+.sectionheading__text{
+    font-size: 60px;
+}
+
+.sectionheading__subtext{
+    font-size: 30px;
+}
+
+.skills__text{
+    padding-top: 2rem;
+}
