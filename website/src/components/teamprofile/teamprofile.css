@@ -7,7 +7,7 @@
 }
 
 .sectionheading__text{
-    font-size: 90px;
+    font-size: 120px;
 }
 
 .sectionheading__subtext{
@@ -16,4 +16,13 @@
 
 .teamprofiles__text{
     padding-top: 2rem;
+}
+
+#titletext-teamprofiles{
+    font-size: 90px;
+    text-align: right;
+}
+#subtext-teamprofiles{
+    font-size: 20px;
+    text-align: right;
 }

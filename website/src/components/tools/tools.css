@@ -17,3 +17,12 @@
 .tools__text{
     padding-top: 2rem;
 }
+
+#titletext-tools{
+    font-size: 90px;
+    text-align: right;
+}
+#subtext-tools{
+    font-size: 20px;
+    text-align: right;
+}

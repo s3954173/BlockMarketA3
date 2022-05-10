@@ -17,3 +17,12 @@
 .skills__text{
     padding-top: 2rem;
 }
+
+#titletext-skills{
+    font-size: 105px;
+    text-align: left;
+}
+#subtext-skills{
+    font-size: 20px;
+    text-align: left;
+}
