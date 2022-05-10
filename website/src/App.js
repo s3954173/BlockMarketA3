@@ -11,11 +11,27 @@ const App = () => {
             <Header />
 
         </div>
+        <section>
         <Teamprofile />
+
+        </section>
+        <section>
         <Tools />
+
+        </section>
+        <section>
         <Skills />
+
+        </section>
+        <section>
         <Projectdescription />
+
+        </section>
+        <section>
         <Feedback />
+
+        </section>
+        
 
         
     </div>
