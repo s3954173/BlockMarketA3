@@ -2,8 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 2rem 6rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0.5rem 6rem;
+    backdrop-filter: blur(10px);
 }
 
 .gpt3__navbar-links{
@@ -46,4 +49,43 @@
     margin: 0 1rem;
     cursor: pointer;
 
+}
+
+.navitem{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navitem:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 50%;
+    height: 2px;
+    background: #000;
+    transition: .5s cubic-bezier(0.075,0.82,0.165,1);
+}
+.navitem:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 50%;
+    height: 2px;
+    background: #000;
+    transition: .5s cubic-bezier(0.075,0.82,0.165,1);
+}
+
+.navitemhover{
+color: #000;
+}
+
+.navitem:hover:before{
+    right: 0;
+}
+.navitem:hover:after{
+    left: 0;
 }

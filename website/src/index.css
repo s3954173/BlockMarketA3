@@ -6,7 +6,7 @@
     --gradient-text: linear-gradient(90deg, rgba(255,202,106,1) 0%, rgba(17,186,171,1) 55%, rgba(141,70,224,1) 94%);
     --gradient-bar: linear-gradient(90deg, rgba(255,202,106,1) 0%, rgba(17,186,171,1) 55%, rgba(141,70,224,1) 94%);
     --sectionheading: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(242,227,227,1) 30%, rgba(219,199,242,1) 100%);
-    --color-bg:#227C9D;
+    --color-bg: rgb(34, 34, 34);
     --color-footer: #17C3B2;
     --color-blog: #FFCB77;
     --color-text: #FEF9EF;

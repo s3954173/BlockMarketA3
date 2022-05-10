@@ -1,8 +1,9 @@
 .feedback{
     background: #C7F9CC ;
-    border-radius: 1rem;
+    
     padding: 3rem;
-    margin: 2rem;
+    padding-top: 5rem;
+    
 }
 
 .sectionheading__text{

@@ -11,13 +11,13 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className="gpt3__navbar-links_container">
-          <p><a href="#home">Home</a></p>
-          <p><a href="#teamprofiles">Team Profiles</a></p>
-          <p><a href="#tools">Tools</a></p>
-          <p><a href="#skills">Skills</a></p>
-          <p><a href="#projectdescription">Project Description</a></p>
+          <p className="navitem"><a href="#home">Home</a></p>
+          <p className="navitem"><a href="#teamprofiles">Team Profiles</a></p>
+          <p className="navitem"><a href="#tools">Tools</a></p>
+          <p className="navitem"><a href="#skills">Skills</a></p>
+          <p className="navitem"> <a href="#projectdescription">Project Description</a></p>
           
-          <p><a href="#feedback">Feedback</a></p>
+          <p className="navitem"><a href="#feedback">Feedback</a></p>
         </div>
        </div>
        

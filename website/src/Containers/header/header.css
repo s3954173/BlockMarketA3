@@ -1,3 +1,28 @@
+
+
 .gradient__text{
-    font-size: 50px;
+    font-size: 30px;
+}
+.title__description{
+    color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(229, 235, 241);
+
+}
+
+.blockmarket{
+    
+    font-size: 120px;
+    color: transparent;
+    background:radial-gradient(circle at 50% 50%, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);    
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+
+
+}
+@keyframes back{
+    100%{
+        background-position: 1650px 0;
+    }
 }
