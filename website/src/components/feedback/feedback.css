@@ -1,5 +1,5 @@
 .feedback{
-    background: #C7F9CC ;
+    background: #f369a9 ;
     
     padding: 3rem;
     padding-top: 5rem;
@@ -16,4 +16,13 @@
 
 .feedback__text{
     padding-top: 2rem;
+}
+
+#titletext-feedback{
+    font-size: 105px;
+    text-align: left;
+}
+#subtext-feedback{
+    font-size: 20px;
+    text-align: left;
 }

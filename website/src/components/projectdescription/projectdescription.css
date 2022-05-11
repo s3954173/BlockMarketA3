@@ -1,14 +1,12 @@
 .projectdescription{
-    background: #80ED99 ;
+    background: #741dad ;
    
     padding: 3rem;
     padding-top: 5rem;
    
 }
 
-.sectionheading__text{
-    font-size: 60px;
-}
+
 
 .sectionheading__subtext{
     font-size: 30px;
@@ -16,4 +14,29 @@
 
 .projectdescription__text{
     padding-top: 2rem;
+}
+
+#titletext-projectdescription{
+    font-size: 105px;
+    text-align: center;
+}
+#subtext-projectdescription{
+    font-size: 20px;
+    text-align: center;
+}
+.ourproject{
+    
+    font-size: 120px;
+    color: transparent;
+    background: url("../../assets/ourprojectbackground.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 10s linear infinite;
+
+
+}
+@keyframes back{
+    100%{
+        background-position: 1650px 0;
+    }
 }
