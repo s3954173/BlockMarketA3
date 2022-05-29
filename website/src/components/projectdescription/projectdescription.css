@@ -17,7 +17,7 @@
 }
 
 #titletext-projectdescription{
-    font-size: 105px;
+    font-size: 120px;
     text-align: center;
 }
 #subtext-projectdescription{
@@ -26,12 +26,14 @@
 }
 .ourproject{
     
-    font-size: 120px;
+    font-size: 140px;
     color: transparent;
-    background: url("../../assets/ourprojectbackground.png");
+    background: url("../../assets/imgs/ourprojectbackground.png");
+    background-size: 20%;
+    
     -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 10s linear infinite;
+    background-position: 500 0;
+    animation: back 110s linear infinite;
 
 
 }
