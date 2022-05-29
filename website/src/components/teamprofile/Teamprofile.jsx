@@ -21,7 +21,12 @@ import haydenselfie from '../../assets/imgs/haydenselfie.png';
 import haydenmyerbriggs from '../../assets/imgs/haydenmyerbriggs.png';
 import haydenbig5 from '../../assets/imgs/haydenbig5.png';
 import haydenlearningstyle from '../../assets/imgs/haydenlearningstyle.png';
-
+import Collapsible from 'react-collapsible';
+const bo =  <h2 className="teamitem" style={{'font-size':'50px'}}>Bo</h2>;
+const daniel =  <h2 className="teamitem" style={{'font-size':'50px'}}>Daniel</h2>;
+const van =  <h2 className="teamitem" style={{'font-size':'50px'}}>Van</h2>;
+const russell =  <h2 className="teamitem" style={{'font-size':'50px'}}>Russell</h2>;
+const hayden =  <h2 className="teamitem" style={{'font-size':'50px'}}>Hayden</h2>;
 
 const Teamprofile = () => {
   return (
@@ -29,9 +34,12 @@ const Teamprofile = () => {
       <h1 data-splitting id="titletext-teamprofiles"className="sectionheading__text">Team Profiles.</h1>
       <h2 id="subtext-teamprofiles"className="sectionheading__subtext">Meet our dedicated team &nbsp; //</h2>
       
+    
       
       {/* bo */}
+      
       <div className="teamprofiles__text">
+      <Collapsible trigger={bo}>
         <div class="body_div">
 
           <div>
@@ -60,12 +68,12 @@ const Teamprofile = () => {
             <img src={bolearningstyle} alt="" width="400" height="auto" style={{'padding-right': '5%'}} /> 
             </content>
         </div>
-
+      </Collapsible>
       {/* daniel */}
-
+      <Collapsible trigger={daniel}>
       <div id="parallax" class="body_div">
 
-<div style={{ 'margin-top':'5%'}}>
+<div style={{ }}>
 <h2 className="sectionheading__text" style={{'font-size':'80px'}}>Daniel Gell</h2><br/>
 <content>
 <img src={danielselfie} alt="" width="200" height="auto" style={{'border':'1px solid black'}}/>
@@ -105,9 +113,10 @@ my ideas aren’t too far-fetched out and out there.     </p>
 <img src={danielcreativity} alt="" width="400" height="auto" style={{'padding-right': '5%'}} />
 </content>
 </div>
-
+</Collapsible>
 {/* van */}
-<div style={{ 'margin-top':'5%'}} class="body_div">
+<Collapsible trigger={van}>
+<div style={{ }} class="body_div">
 
     <div>
     <h2 className="sectionheading__text" style={{'font-size':'80px'}}>Van Pham</h2> <br/>
@@ -140,9 +149,10 @@ my ideas aren’t too far-fetched out and out there.     </p>
     <img src={vanlearningstyle} alt="" width="400" height="auto" style={{'padding-right': '2%'}} />
     </content>
     </div>
-
+    </Collapsible>
+    <Collapsible trigger={russell}>
 {/* russell */}
-<div style={{ 'margin-top':'5%'}} class="body_div">
+<div style={{ }} class="body_div">
 
     <div >
     <h2 className="sectionheading__text" style={{'font-size':'80px'}}>Russell Saw</h2><br/>
@@ -166,9 +176,10 @@ My Myers-Briggs test results show me to be extraverted, intuitive, thinking, pro
     <img src={russellvark} alt="" width="400" height="auto" style={{'padding-right': '1%'}} />
     </content>
     </div>
-
+    </Collapsible>
+    <Collapsible trigger={hayden}>
 {/* hayden */}
-<div style={{ 'margin-top':'5%'}} class="body_div">
+<div style={{ }} class="body_div">
 
     <div>
     <h2 className="sectionheading__text" style={{'font-size':'80px'}}>Hayden McKenzie</h2><br/>
@@ -210,11 +221,12 @@ In a team situation, being open to experience can be hit or miss. This means tha
     <img src={haydenbig5} alt="" width="400" height="auto" style={{'padding-right': '1%'}} />
     </content>
     </div>
+    </Collapsible>
 
 <div className='body_div' style={{'margin-top':'5%'}}>
-<h2 className="sectionheading__text" style={{'font-size':'80px'}}>Group Processes</h2><br/>
+<h2 className="sectionheading__text" style={{'font-size':'60px'}}>Group Processes</h2><br/>
 
-<h2 className="sectionheading__text" style={{'font-size':'80px'}}>Career Plans</h2><br/>
+<h2 className="sectionheading__text" style={{'font-size':'60px'}}>Career Plans</h2><br/>
 </div>
   
 

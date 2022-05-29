@@ -67,3 +67,9 @@
 .toolitem:hover:after{
     left: 0;
 }
+.toolsbody_div{
+    margin-left: 5%;
+    background-color:#53a8a9 ;
+    border-radius: 15px;
+    padding: 3%;
+}

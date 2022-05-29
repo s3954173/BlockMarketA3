@@ -9,7 +9,7 @@ const Tools = () => {
       <h1 id="titletext-tools" className="sectionheading__text">Tools.</h1>
       <h2 id="subtext-tools" className="sectionheading__subtext">Tracking our repository progress &nbsp; //</h2>
     <div className="tools__text">
-      <div className="body_div">
+      <div className="toolsbody_div">
       <Collapsible trigger={teameetingsheading} triggerTagName='h2' triggerStyle={{'font-size':'50px','margin-bottom':'2%',}}>
     <h2 className="sectionheading__text" style={{'font-size':'30px'}}>Recording Dates:</h2><br/>
       <p>
