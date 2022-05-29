@@ -1,6 +1,7 @@
 import React from 'react'
-import { Header} from './containers';
+import { Header} from './Containers';
 import { Feedback, Navbar, Projectdescription, Skills, Teamprofile, Tools} from './components'
+import useCollapse from 'react-collapsed';
 import './app.css'
 
 const App = () => {
