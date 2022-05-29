@@ -1,0 +1,124 @@
+.projectdescription{
+    background: #741dad ;
+   
+    padding: 3rem;
+    padding-top: 5rem;
+   
+}
+
+
+
+.sectionheading__subtext{
+    font-size: 30px;
+}
+
+.projectdescription__text{
+    padding-top: 2rem;
+}
+
+#titletext-projectdescription{
+    font-size: 120px;
+    text-align: center;
+}
+#subtext-projectdescription{
+    font-size: 20px;
+    text-align: center;
+}
+.ourproject{
+    
+    font-size: 140px;
+    color: transparent;
+    background: url("../../assets/imgs/ourprojectbackground.png");
+    background-size: 20%;
+    
+    -webkit-background-clip: text;
+    background-position: 500 0;
+    animation: back 110s linear infinite;
+
+
+}
+@keyframes back{
+    100%{
+        background-position: 1650px 0;
+    }
+}
+
+.projectitem{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 1%;
+    
+}
+.projectitem:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 20%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: 3s cubic-bezier(0.075,0.82,0.165,1);
+}
+.projectitem:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 20%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: 3s cubic-bezier(0.075,0.82,0.165,1);
+}
+.projectitem:hover:before{
+    right: 0;
+}
+.projectitem:hover:after{
+    left: 0;
+}
+
+
+.projectiteminner{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 5%;
+    
+}
+.projectiteminner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 20%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: 3s cubic-bezier(0.075,0.82,0.165,1);
+}
+.projectiteminner:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 20%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: 3s cubic-bezier(0.075,0.82,0.165,1);
+}
+.projectiteminner:hover:before{
+    right: 0;
+}
+.projectiteminner:hover:after{
+    left: 0;
+}
+
+.pd-div-content{
+    padding: 3%;
+    border-radius: 15px;
+    background-color: #a64fdf;
+    margin-top: 2%;
+}

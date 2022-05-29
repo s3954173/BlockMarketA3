@@ -1,0 +1,28 @@
+.feedback{
+    background: #f369a9 ;
+    
+    padding: 3rem;
+    padding-top: 5rem;
+    
+}
+
+.sectionheading__text{
+    font-size: 60px;
+}
+
+.sectionheading__subtext{
+    font-size: 30px;
+}
+
+.feedback__text{
+    padding-top: 2rem;
+}
+
+#titletext-feedback{
+    font-size: 105px;
+    text-align: left;
+}
+#subtext-feedback{
+    font-size: 20px;
+    text-align: left;
+}
