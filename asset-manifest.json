@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-pages/static/css/main.9d642f7b.css",
+    "main.js": "/react-pages/static/js/main.81af5587.js",
+    "static/media/ourprojectbackground.png": "/react-pages/static/media/ourprojectbackground.9d0d196a0b78560eeb8e.png",
+    "static/media/russellselfie.png": "/react-pages/static/media/russellselfie.87d085e34939c677d82b.png",
+    "static/media/bodog.png": "/react-pages/static/media/bodog.1521835bc04d5988d805.png",
+    "static/media/boselfie.png": "/react-pages/static/media/boselfie.9a073cb01848eaf9a056.png",
+    "static/media/haydenselfie.png": "/react-pages/static/media/haydenselfie.82848eeb88714c3ac549.png",
+    "static/media/danielselfie.png": "/react-pages/static/media/danielselfie.6fc358ed7d314b53714e.png",
+    "static/media/danielmyerbriggs.png": "/react-pages/static/media/danielmyerbriggs.8831fd1d90433cc1416a.png",
+    "static/media/vanselfie.png": "/react-pages/static/media/vanselfie.a8d1bbc6509cb640a372.png",
+    "static/media/russellvark.png": "/react-pages/static/media/russellvark.026c842604f3977ea63c.png",
+    "static/media/haydenmyerbriggs.png": "/react-pages/static/media/haydenmyerbriggs.bb499435c8fa90423311.png",
+    "static/media/vanmyerbriggs.png": "/react-pages/static/media/vanmyerbriggs.a1fa57dc1784e550993e.png",
+    "static/media/vanlearningstyle.png": "/react-pages/static/media/vanlearningstyle.6d120f648f07d129b10d.png",
+    "static/media/danielcreativity.png": "/react-pages/static/media/danielcreativity.f29d2beb6c23716f49eb.png",
+    "static/media/bomyerbriggs.png": "/react-pages/static/media/bomyerbriggs.898641d994dd0a0dcd2d.png",
+    "static/media/haydenlearningstyle.png": "/react-pages/static/media/haydenlearningstyle.acb12068df0921ad3e1d.png",
+    "static/media/russellmyerbriggs.png": "/react-pages/static/media/russellmyerbriggs.06cd8832c0984fa37977.png",
+    "static/media/daniellearningstyle.png": "/react-pages/static/media/daniellearningstyle.b942517c51dd65bf498a.png",
+    "static/media/bolearningstyle.png": "/react-pages/static/media/bolearningstyle.ac9fcac7b110a3f2d137.png",
+    "static/media/haydenbig5.png": "/react-pages/static/media/haydenbig5.8f9a90d934c92ac223bf.png",
+    "static/media/vanbig5.png": "/react-pages/static/media/vanbig5.182fcc5070e5b0468be1.png",
+    "static/media/bobig5.png": "/react-pages/static/media/bobig5.27cbfc40e50000746a60.png",
+    "static/media/russellbig5.png": "/react-pages/static/media/russellbig5.b74d4799bcd780bed502.png",
+    "static/media/logo.png": "/react-pages/static/media/logo.227594b384f017ede22f.png",
+    "index.html": "/react-pages/index.html",
+    "main.9d642f7b.css.map": "/react-pages/static/css/main.9d642f7b.css.map",
+    "main.81af5587.js.map": "/react-pages/static/js/main.81af5587.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d642f7b.css",
+    "static/js/main.81af5587.js"
+  ]
+}
