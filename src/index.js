@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css'
-import Router from 'react-router-dom';
+import App from 'BlockMarketA3/src/App';
+import 'BlockMarketA3/src/index.css'
+
 ReactDOM.render(
-<Router basename='/BlockMarketA3'>
-<App />
-</Router>,
+
+<App />,
+
 
 document.getElementById('root'));
